@@ -1,31 +1,119 @@
+#root{
+
+  --color-background : #5180FF;
+  --color-brick:#C07000;
+  --padding: 10px;
+  --margin:7px;
+  --size-radius: 6px;
+  --size-width: 70dvw;
+  --color-yellow: #FFD028;
+  --color-sky:#9DE7E7;
+  --color-green:#00CF00;
+  --color-red:#FF3939;
+  --color-text:#FFC8B8;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: var(--color-background);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
   color: white;
+  padding:0;
+  margin : 0;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header {
+  width:calc(var(--size-width));
+  font-size: 80px;
+  font-weight: bolder;
+  color: black;
+  padding-top: var(--padding);
+  padding-bottom: var(--padding);
+  background-color:var(--color-brick);
+  border-radius: var(--size-radius);
+  border-style: groove ;
+  border-width: 4px;
+  border-color: black;
+}
+
+.btnScr{
+  width:calc(var(--size-width));
+  border-radius: var(--size-radius);
+  border-width: 4px;
+  border-style:double;
+  border: 2px;
+  border-color: #96C0FF;
+  margin-top: var(--margin);
+  text-align:right;  
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.btn,
+.turn {
+  margin-left: var(--margin);
+  /* border:none;
+  outline: none; */
+  border-radius: var(--size-radius);
+  margin-top:var(--margin);
+  margin-bottom:var(--margin);
+  width: calc(var(--size-width)/2);
+  height: 35px;
+  font-weight: bold;
+  border-style: groove ;
+  border-color: black;
+  margin-right: var(--margin);
+  display: flex;
+
+}
+
+.turn{
+text-align:left;
+justify-content: center;
+flex-direction: column;
+padding-left:var(--padding);
+}
+
+.btnIn{
+  margin-left: var(--margin);
+  border-radius: var(--size-radius);
+  cursor: pointer;  
+  width: 60px;
+  height: 35px;
+  font-weight: bold;
+  border-style: groove ;
+}
+
+.turn { 
+  /* width: calc(var(--size-width)/2); */
+  /* background-color: var(--color-sky); */
+}
+
+.BtnRow3{
+  background-color: var(--color-sky);
+
+}
+.BtnRow4{
+  background-color: var(--color-yellow);
+  
+}
+.BtnRow5{
+  background-color: var(--color-sky);
+
+}
+.BtnRow6{
+  background-color: var(--color-green);
+}
+
+.BtnNG{
+  width : 100px;
+  font-weight: bold;
+  background-color: var(--color-red);
 }
 
 @keyframes App-logo-spin {

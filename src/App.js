@@ -4,21 +4,23 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header className="App-header">MEMORY GAME</header>
+      <div className="btnScr">
+        <span className ="turn"> a </span>
+        <div className="btn">
+        <button className="btnIn BtnNG">New Game</button>
+        <button className="btnIn BtnRow3"> 3 x 4</button>
+        <button className="btnIn BtnRow4"> 4 x 4</button>
+        <button className="btnIn BtnRow5"> 5 x 6</button>
+        <button className="btnIn BtnRow6"> 5 x 6</button>
+        </div>
+      </div>
+      <div className="table">
+        <table>
+        </table>
+      </div>
     </div>
+    
   );
 }
 
