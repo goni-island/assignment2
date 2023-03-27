@@ -15,3 +15,21 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+// const Image = [
+//     {
+//     i:10,
+//     image: "img/10.png"
+//     },
+//     {
+//     id:11,
+//     image: "img/11.png"
+//     }
+//     ]
+
+// export default Image;
+
+//     -> import Image from './index.js'
+//     -> using map function
+//     extrac item and using id from it 
