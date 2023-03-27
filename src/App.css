@@ -11,6 +11,7 @@
   --color-green:#00CF00;
   --color-red:#FF3939;
   --color-text:#FFC8B8;
+  --margin-start-end: 15vh;
 }
 
 .App {
@@ -38,6 +39,8 @@
   border-style: groove ;
   border-width: 4px;
   border-color: black;
+  margin-top:var(--margin-start-end);
+
 }
 
 .btnScr{
@@ -92,6 +95,31 @@ padding-left:var(--padding);
 .turn { 
   /* width: calc(var(--size-width)/2); */
   /* background-color: var(--color-sky); */
+}
+
+.gridScreen{
+  width:var(--size-width);
+  height:  calc(var(--size-width)*0.75);
+  display: grid;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+  /* text-align: center; */
+  grid-template-rows: 1fr 1fr 1fr;
+  border :1px solid black;
+  margin-bottom:var(--margin-start-end);
+}
+
+.row{
+  display:flex;
+  width:var(--size-width);
+  height:100%;
+  border :1px solid black;
+}
+.col{
+  border :1px solid black;
+  width: 25%;
+  height: 100%;
 }
 
 .BtnRow3{
