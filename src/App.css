@@ -5,7 +5,7 @@
   --padding: 10px;
   --margin:7px;
   --size-radius: 6px;
-  --size-width: 70dvw;
+  --size-width: 60dvw;
   --color-yellow: #FFD028;
   --color-sky:#9DE7E7;
   --color-green:#00CF00;
@@ -29,7 +29,7 @@
 
 .App-header {
   width:calc(var(--size-width));
-  font-size: 80px;
+  font-size: 100px;
   font-weight: bolder;
   color: black;
   padding-top: var(--padding);
@@ -44,7 +44,7 @@
 }
 
 .btnScr{
-  width:calc(var(--size-width));
+  width:var(--size-width);
   border-radius: var(--size-radius);
   border-width: 4px;
   border-style:double;
@@ -64,7 +64,7 @@
   margin-top:var(--margin);
   margin-bottom:var(--margin);
   width: calc(var(--size-width)/2);
-  height: 35px;
+  height: 5vh;
   font-weight: bold;
   /* border-style: groove ; */
   border-color: black;
@@ -115,13 +115,19 @@ border-color: black;
   border :1px solid black;
   width: 25%;
   height: 100%;
-  padding :1px;
+  padding :0px;
   cursor: pointer;  
 }
 
 .card{
   width:100%;
   height: 100%;
+}
+
+.front{
+  width:100%;
+  height: 100%;
+  background-color:violet;
 }
 .BtnRow3{
   background-color: var(--color-sky);
