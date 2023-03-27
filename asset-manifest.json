@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/goni-island/assignment2/static/css/main.53c9628a.css",
+    "main.js": "/goni-island/assignment2/static/js/main.823cb9ef.js",
+    "static/js/787.041acc40.chunk.js": "/goni-island/assignment2/static/js/787.041acc40.chunk.js",
+    "index.html": "/goni-island/assignment2/index.html",
+    "main.53c9628a.css.map": "/goni-island/assignment2/static/css/main.53c9628a.css.map",
+    "main.823cb9ef.js.map": "/goni-island/assignment2/static/js/main.823cb9ef.js.map",
+    "787.041acc40.chunk.js.map": "/goni-island/assignment2/static/js/787.041acc40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53c9628a.css",
+    "static/js/main.823cb9ef.js"
+  ]
+}
